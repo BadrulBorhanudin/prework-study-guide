@@ -10,7 +10,7 @@
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/images.jpg" alt="Image of a person coding." />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
@@ -29,11 +29,33 @@
         <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>If we define class="card", in CSS we use .card</li>
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
+        <br>
+        <h3>Generate an SSH Key</h3>
+        <br>
+        <ol>
+          <li>Enter ssh-keygen -t ed25519 -C “your_email@example.com” in your terminal to create a new SSH key.</li>
+          <li>When prompted, save your key in the default file location and create a secure passphrase.</li>
+        </ol>
+        <br>
+        <h3>Add the SSH Key to the ssh-agent</h3>
+        <br>
+        <ol>
+          <li>Enter eval “$(ssh-agent -s)” in your terminal to start the ssh-agent.</li>
+          <li>Add your private SSH key to the ssh-agent using the ssh-add command</li>
+        </ol>
+        <br>
+        <h3>Add the SSH Key to GitHub</h3>
+        <br>
+        <ol>
+          <li>On GitHub, go to Settings/SSH and GPG keys</li>
+          <li>Click New SSH key</li>
+        </ol>
         <br>
         <h3>On GitBash</h3>
         <br>
