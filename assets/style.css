@@ -15,10 +15,13 @@ h1,
 h2 {
     text-align: center;
 }
+h3 {
+    padding-left: 1rem;
+}
 
 /* This is a test */ 
 ul {
-    list-style-position: inside;
+    list-style-position: initial;
 }
 
 img {
